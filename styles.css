@@ -1,12 +1,25 @@
 * {
 	box-sizing: border-box;
+	margin-top: 0;
 }
 
 html, body {
 	margin: 0;
+	font-family: "Montserrat", sans-serif;
 }
 
-header, footer {
+header {
+background-color: #18a5f7;
+padding-bottom: 20px;
+color: white;
+padding-left: 130px;
+}
+
+footer {
+background-color: #18a5f7;
+padding-bottom: 20px;
+padding-left: 130px;
+color: white;
 
 }
 
@@ -15,11 +28,17 @@ header, footer {
 }
 
 header .subtitle {
+color: white;
+background-color: #18a5f7;
+padding-top: 20px;
+margin-left: 150px;
 
 }
 
 h1 {
-
+color: white;
+margin-left: 150px;
+text-transform: uppercase;
 }
 
 ul {
@@ -29,9 +48,13 @@ ul {
 
 ul li {
 	width: 50%;
+	margin-left: 150px;
 }
 
 main {
+	max-width: 660px;
+	margin: auto;
+	padding: 20px;
 
 }
 
@@ -40,23 +63,33 @@ section {
 }
 
 h2 {
-
+color: #18a5f7;
+border-bottom-color: #18a5f7;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+padding-bottom: 10px;
 }
 
 h3 {
-
+color: #18a5f7;
 }
 
 p {
 
 }
 
-.details {
+table {
+text-align: left;
+max-width: 600px;
+}
 
+.details {
+color: #18a5f7;
 }
 
 .object {
-
+font-weight: 600;
+color: #18a5f7;
 }
 
 .object:after {
@@ -64,5 +97,7 @@ p {
 }
 
 footer h2 {
-
+color: white;
+background-color: #18a5f7;
+padding-top: 20px;
 }
